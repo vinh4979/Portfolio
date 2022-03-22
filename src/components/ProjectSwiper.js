@@ -186,86 +186,6 @@ export default function ProjectSwiper() {
               <div className="project__item">
                 <div className="project__img">
                   <a
-                    href="https://github.com/vinh4979/B-Cinema.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={ncinema2} alt="gInterior" />
-                  </a>
-                </div>
-                <div className="project__info">
-                  <h2>B - Cinema Website</h2>
-                </div>
-                <div>
-                  <button className="btn" onClick={handleOpenModal}>
-                    View Project
-                  </button>
-                  <a
-                    href="https://github.com/vinh4979/B-Cinema.git"
-                    target="_blank"
-                    className="btn2"
-                    rel="noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </FadeInWhenVisible>
-
-            <div className="project__brief">
-              <FadeInWhenVisible>
-                <h2>
-                  <span>
-                    <HiViewGrid />
-                  </span>
-                  Overview
-                </h2>
-                <p>This is an online Booking Ticket Website.</p>
-                <p>A web application for booking movie ticket online</p>
-                <p>Feature:</p>
-                <p>
-                  {' '}
-                  - Listing movies from movie api, allows users book movie
-                  ticket online.{' '}
-                </p>
-                <p>- Allows users login and sign up for new account.</p>
-                <p>
-                  - Allows users manage their profile and booking/purchase
-                  history.
-                </p>
-                <p>- More and more...</p>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible>
-                <h2>
-                  <span>
-                    <BiCodeAlt />
-                  </span>
-                  Technology Used
-                </h2>
-                {/* Skill */}
-                <TechniqueSkills skillGrids={projectSkillGridsCinema} />
-              </FadeInWhenVisible>
-              <FadeInWhenVisible>
-                <h2>
-                  <span>
-                    <BiCodeAlt />
-                  </span>
-                  UI Library Used
-                </h2>
-                {/* Skill */}
-                <TechniqueSkills skillGrids={projectSkillGridsLibUICinema} />
-                {/* Skill */}
-              </FadeInWhenVisible>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            {/* list project */}
-            <FadeInWhenVisible>
-              <div className="project__item">
-                <div className="project__img">
-                  <a
                     href="https://shopping-online-teal.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -352,7 +272,88 @@ export default function ProjectSwiper() {
               <div className="project__item">
                 <div className="project__img">
                   <a
-                    href="http://ncineplex.netlify.app/"
+                    href="https://github.com/vinh4979/B-Cinema.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={ncinema2} alt="gInterior" />
+                  </a>
+                </div>
+                <div className="project__info">
+                  <h2>B - Cinema Website</h2>
+                </div>
+                <div>
+                  <button className="btn" onClick={handleOpenModal}>
+                    View Project
+                  </button>
+                  <a
+                    href="https://github.com/vinh4979/B-Cinema.git"
+                    target="_blank"
+                    className="btn2"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </FadeInWhenVisible>
+
+            <div className="project__brief">
+              <FadeInWhenVisible>
+                <h2>
+                  <span>
+                    <HiViewGrid />
+                  </span>
+                  Overview
+                </h2>
+                <p>This is an online Booking Ticket Website.</p>
+                <p>A web application for booking movie ticket online</p>
+                <p>Feature:</p>
+                <p>
+                  {' '}
+                  - Listing movies from movie api, allows users book movie
+                  ticket online.{' '}
+                </p>
+                <p>- Allows users login and sign up for new account.</p>
+                <p>
+                  - Allows users manage their profile and booking/purchase
+                  history.
+                </p>
+                <p>- More and more...</p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible>
+                <h2>
+                  <span>
+                    <BiCodeAlt />
+                  </span>
+                  Technology Used
+                </h2>
+                {/* Skill */}
+                <TechniqueSkills skillGrids={projectSkillGridsCinema} />
+              </FadeInWhenVisible>
+              <FadeInWhenVisible>
+                <h2>
+                  <span>
+                    <BiCodeAlt />
+                  </span>
+                  UI Library Used
+                </h2>
+                {/* Skill */}
+                <TechniqueSkills skillGrids={projectSkillGridsLibUICinema} />
+                {/* Skill */}
+              </FadeInWhenVisible>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div>
+            {/* list project */}
+            <FadeInWhenVisible>
+              <div className="project__item">
+                <div className="project__img">
+                  <a
+                    href="https://bui-vinh-portfolio.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -364,7 +365,7 @@ export default function ProjectSwiper() {
                 </div>
                 <div>
                   <a
-                    href="http://ncineplex.netlify.app/"
+                    href="https://bui-vinh-portfolio.vercel.app/"
                     target="_blank"
                     className="btn"
                     rel="noreferrer"
@@ -372,7 +373,7 @@ export default function ProjectSwiper() {
                     View Project
                   </a>
                   <a
-                    href="https://github.com/ngtn0502/movieTicket-project"
+                    href="https://github.com/vinh4979/Portfolio"
                     target="_blank"
                     className="btn2"
                     rel="noreferrer"
